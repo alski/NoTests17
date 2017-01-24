@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/.vs
+/DataConverter/obj/x86/Debug
+/TrackMyMedicine/obj/x86/Debug
+/TrackMyMedicine.Debug/obj/x86/Debug
+/UnitTestProject/obj/x86/Debug
