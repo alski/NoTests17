@@ -302,7 +302,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -2335,7 +2338,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -4218,7 +4224,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -6099,7 +6108,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -7982,7 +7994,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -9863,7 +9878,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -11746,7 +11764,10 @@
         }
       },
       "MSBuildTasks/1.5.0.196": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/MSBuildTasks.targets": {}
+        }
       },
       "Newtonsoft.Json/7.0.1": {
         "type": "package",
@@ -16909,9 +16930,49 @@
     ],
     "UAP,Version=v10.0": []
   },
-  "tools": {},
-  "projectFileToolGroups": {},
   "packageFolders": {
     "C:\\Users\\al\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Dev\\NoTests17\\TrackMyMedicine\\TrackMyMedicines.csproj",
+      "projectName": "TrackMyMedicines",
+      "projectPath": "C:\\Dev\\NoTests17\\TrackMyMedicine\\TrackMyMedicines.csproj",
+      "projectJsonPath": "C:\\Dev\\NoTests17\\TrackMyMedicine\\project.json",
+      "projectStyle": "ProjectJson"
+    },
+    "dependencies": {
+      "Microsoft.ApplicationInsights": "1.0.0",
+      "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+      "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+      "MSBuildTasks": "1.5.0.196",
+      "Newtonsoft.Json": "7.0.1",
+      "reactiveui": "6.5.0",
+      "Splat": "1.6.2"
+    },
+    "frameworks": {
+      "uap10.0": {}
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
   }
 }
